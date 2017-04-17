@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidMemoryLeak.iml" filepath="$PROJECT_DIR$/AndroidMemoryLeak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidMemoryLeakd.iml" filepath="$PROJECT_DIR$/.idea/AndroidMemoryLeakd.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
