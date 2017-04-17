@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pprabhakaran.androidmemoryleak.MainActivity">
+
+    <TextView android:id="@+id/task_text"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/task_title"
+        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/task_action"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:text="@string/do_task"
+        android:layout_marginTop="39dp"
+        app:layout_constraintTop_toBottomOf="@+id/task_text"
+        app:layout_constraintStart_toStartOf="@+id/task_text"
+        app:layout_constraintEnd_toEndOf="@+id/task_text"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/task_done"
+        android:layout_width="189dp"
+        android:layout_height="56dp"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/task_action"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="38dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidMemoryLeak</string>
+    <string name="task_title">Click on button and rotate device to trigger memory leak.</string>
+    <string name="do_task">Do Task</string>
+</resources>
